@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>1220</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AcessMod Data Input Creator</string>
+  </property>
+  <property name="toolTip">
+   <string>This app prepares data inputs need for accessibility modelling in AccessMod</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>36</width>
+    <height>36</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="toolTip">
+       <string>Add input features</string>
+      </property>
+      <property name="title">
+       <string>Add Features</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTabWidget" name="tabWidget">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="vectorDataTW">
+          <attribute name="title">
+           <string>Vector Data</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="9" column="4">
+            <widget class="QToolButton" name="protectedAreaBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2">
+            <widget class="QLineEdit" name="saveRiverLE"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="roadLB">
+             <property name="text">
+              <string>Roads: </string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="healthFacilLB">
+             <property name="text">
+              <string>Health facilities:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="2">
+            <widget class="QLineEdit" name="saveWaterbodyLE"/>
+           </item>
+           <item row="0" column="4">
+            <widget class="QToolButton" name="healthFacilBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="4">
+            <widget class="QToolButton" name="waterbodyBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="2">
+            <widget class="QLineEdit" name="protectedAreaLE"/>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLineEdit" name="saveHealthFacilLE"/>
+           </item>
+           <item row="4" column="2">
+            <widget class="QLineEdit" name="saveRoadLE"/>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="riverLB">
+             <property name="text">
+              <string>River:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="protectedAreaLB">
+             <property name="text">
+              <string>Protected area:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLineEdit" name="healthFacilLE"/>
+           </item>
+           <item row="5" column="4">
+            <widget class="QToolButton" name="riverBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="watrbodyLB">
+             <property name="text">
+              <string>Water body:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="2">
+            <widget class="QLineEdit" name="waterbodyLE"/>
+           </item>
+           <item row="8" column="4">
+            <widget class="QToolButton" name="saveWaterbodyTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="4">
+            <widget class="QToolButton" name="saveHealthFacilBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="4">
+            <widget class="QToolButton" name="saveProtectedAreaTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="2">
+            <widget class="QLineEdit" name="riverLE"/>
+           </item>
+           <item row="10" column="2">
+            <widget class="QLineEdit" name="saveProtectAreaLE"/>
+           </item>
+           <item row="4" column="4">
+            <widget class="QToolButton" name="saveRoadsTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="4">
+            <widget class="QToolButton" name="saveRiverTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="saveHealthFacilPB">
+             <property name="text">
+              <string>Save File...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLineEdit" name="roadFileLE"/>
+           </item>
+           <item row="2" column="4">
+            <widget class="QToolButton" name="roadFileBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QPushButton" name="saveRoadPB">
+             <property name="text">
+              <string>Save File...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QPushButton" name="saveRiverPB">
+             <property name="text">
+              <string>Save File...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="QPushButton" name="saveWaterbodyPB">
+             <property name="text">
+              <string>Save File...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="0">
+            <widget class="QPushButton" name="saveProtectAreaPB">
+             <property name="text">
+              <string>Save File...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="rasterDataTW">
+          <attribute name="title">
+           <string>Raster Data</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="2" column="3">
+            <widget class="QToolButton" name="landuseBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLineEdit" name="landuseLE"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="LanduseLB">
+             <property name="text">
+              <string>Land Use:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLineEdit" name="populationFileLE"/>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLineEdit" name="popSaveLE"/>
+           </item>
+           <item row="0" column="3">
+            <widget class="QToolButton" name="populationBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2">
+            <widget class="QLineEdit" name="elevationLE"/>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="populationLB">
+             <property name="text">
+              <string>Population:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="elevationLB">
+             <property name="text">
+              <string>Elevation:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QToolButton" name="popSaveBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3">
+            <widget class="QToolButton" name="elevationBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QLineEdit" name="landuseSaveLE"/>
+           </item>
+           <item row="5" column="2">
+            <widget class="QLineEdit" name="elevationSaveLE"/>
+           </item>
+           <item row="3" column="3">
+            <widget class="QToolButton" name="landuseSaveBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="3">
+            <widget class="QToolButton" name="elevationSaveBrowseTB">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="savePopPB">
+             <property name="text">
+              <string>Save File...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QPushButton" name="saveLandusePB">
+             <property name="text">
+              <string>Save File...</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QPushButton" name="saveElevationPB">
+             <property name="text">
+              <string>Save File...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="title">
+       <string>Clip Feature</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="4">
+        <widget class="QToolButton" name="clipFtBrowseTB">
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QComboBox" name="targetClipFtCB">
+         <property name="toolTip">
+          <string>Select target clip feature from the list</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="selectFieldNameCB"/>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLineEdit" name="inputClipFtLE">
+         <property name="toolTip">
+          <string>Select clip feature</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="inputClipFtLB">
+         <property name="text">
+          <string>Input Clip Feature:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="selectFieldLB">
+         <property name="text">
+          <string>Select Field Name:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="targetClipFtListLB">
+         <property name="text">
+          <string>Target Clip Feature:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="title">
+       <string>Reproject and Clip</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="1">
+        <widget class="QRadioButton" name="selectPrjRB">
+         <property name="toolTip">
+          <string>Check to list projected SRS</string>
+         </property>
+         <property name="text">
+          <string>Select Projection:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="selectPrjCB">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="toolTip">
+          <string>Select projected SRS from the list</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="runReprojectClipPB">
+         <property name="toolTip">
+          <string>Click to clip and reproject all input files</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(234, 251, 255);</string>
+         </property>
+         <property name="text">
+          <string>Reproject and Clip</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="title">
+       <string>Confirm Projected Spatial Reference</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QListWidget" name="listPrjLW"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="clearSelectionPB">
+         <property name="toolTip">
+          <string>Click to confirm all clipped files have been projected correctly</string>
+         </property>
+         <property name="text">
+          <string>Confirm Projected SRS</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionExit"/>
+  </widget>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="toolTip">
+    <string>Exit the program</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionExit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>609</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
