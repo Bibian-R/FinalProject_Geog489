@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0efb6f9-3e8a-4c03-ba06-7962f891ac2c" name="Changes" comment="" />
+    <list default="true" id="c0efb6f9-3e8a-4c03-ba06-7962f891ac2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/access_mod_dataprep.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/access_mod_dataprep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/main_app_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/main_app_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/main_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/main_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/save_file_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/save_file_gui.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,11 +24,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="2SvSIrcvetvrgJmmJsMiD7H2vK2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/brobert/OneDrive - Kemri Wellcome Trust/PennState/GEOG 489/Final Project/Scripts",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }

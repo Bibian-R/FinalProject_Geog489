@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+# -*- Main App GUI -*-
+# -*- Bibian Robert -*-
+# -*- Geog 489 Final Project -*-
+# Note: I have modified the original compiled .py file within GUI files to add access link (Line 244) and logo line(248)
 
 # Form implementation generated from reading ui file 'mainApp_gui.ui'
 #
@@ -237,19 +241,19 @@ class Ui_MainWindow(object):
         self.listPrjLW = QtWidgets.QListWidget(self.groupBox_5)
         self.listPrjLW.setObjectName("listPrjLW")
         self.gridLayout_4.addWidget(self.listPrjLW, 0, 0, 1, 1)
-        # my own addition
+        # added accessMod link----
         self.accessModLink = QtWidgets.QLabel('<a href="https://www.accessmod.org/">Visit AccessMod Website</a>')
         self.accessModLink.setOpenExternalLinks(True) # Make the link clickable
         self.gridLayout_4.addWidget(self.accessModLink, 1, 0, 1, 1)
-        # my own logo
+        # added Logo---
         self.logoLabel = QtWidgets.QLabel(self.groupBox_5)
         pixmap = QtGui.QPixmap(r"..\Images\KEMRI-logo.png")  # path to image file
         scaledPixmap = pixmap.scaled(200, 200, QtCore.Qt.KeepAspectRatio)  # Adjust the width and height as needed
         self.logoLabel.setPixmap(scaledPixmap)
         self.gridLayout_4.addWidget(self.logoLabel, 1, 1, 1, 1)
-        self.clearSelectionPB = QtWidgets.QPushButton(self.groupBox_5)
-        self.clearSelectionPB.setObjectName("clearSelectionPB")
-        self.gridLayout_4.addWidget(self.clearSelectionPB, 0, 1, 1, 1)
+        self.confirmCrsPB = QtWidgets.QPushButton(self.groupBox_5)
+        self.confirmCrsPB.setObjectName("confirmCrsPB")
+        self.gridLayout_4.addWidget(self.confirmCrsPB, 0, 1, 1, 1)
         self.verticalLayout.addWidget(self.groupBox_5)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
@@ -274,7 +278,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "AccessMod 5 Data Input Creator By: Bibian Robert"))
-        MainWindow.setToolTip(_translate("MainWindow", "This app prepares data inputs need for accessibility modelling in AccessMod"))
+        MainWindow.setToolTip(_translate("MainWindow", "This app prepares data inputs need for accessibility "
+                                                       "modelling in AccessMod"))
         self.groupBox_7.setToolTip(_translate("MainWindow", "Add input features"))
         self.groupBox_7.setTitle(_translate("MainWindow", "Add Features"))
         self.protectedAreaBrowseTB.setText(_translate("MainWindow", "..."))
@@ -325,8 +330,9 @@ class Ui_MainWindow(object):
         self.runReprojectClipPB.setToolTip(_translate("MainWindow", "Click to clip and reproject all input files"))
         self.runReprojectClipPB.setText(_translate("MainWindow", "Reproject and Clip"))
         self.groupBox_5.setTitle(_translate("MainWindow", "Confirm Projected Spatial Reference"))
-        self.clearSelectionPB.setToolTip(_translate("MainWindow", "Click to confirm all clipped files have been projected correctly"))
-        self.clearSelectionPB.setText(_translate("MainWindow", "Confirm Projected SRS"))
+        self.confirmCrsPB.setToolTip(_translate("MainWindow", "Click to confirm all clipped files have been projected "
+                                                              "correctly"))
+        self.confirmCrsPB.setText(_translate("MainWindow", "Confirm Projected SRS"))
         self.toolBar.setWindowTitle(_translate("MainWindow", "toolBar"))
         self.actionExit.setText(_translate("MainWindow", "Exit"))
         self.actionExit.setToolTip(_translate("MainWindow", "Exit the program"))

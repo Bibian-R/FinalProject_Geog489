@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# -*- Save File Dialog GUI -*-
+# -*- Bibian Robert -*-
+# -*- Geog 489 Final Project -*-
 
 # Form implementation generated from reading ui file 'saveFile_gui.ui'
 #
